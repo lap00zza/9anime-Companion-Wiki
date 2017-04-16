@@ -21,4 +21,4 @@ chrome.storage.local.get(function (saved) {
 Unless someone else physically inspects the storage or modify the extension, you are safe.
 
 ### Well that does not sound very convincing. Anything else that I can do?
-Yup. You can verify your credentials when you are using the integration and remove your credentials when you are not. Oh and also since this is a open source project, feel free to verify the code as well 😄 .
+Yup. You can verify your credentials when you are using the integration and remove your credentials when you are not.
