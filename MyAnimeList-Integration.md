@@ -4,7 +4,7 @@ MyAnimeList Integration adds the ability to add and update your MAL  directly fr
 
 *For more customization, please use MyAnimeList directly.*
 ## DISCLAIMER 
-**Your username and password are stored in Plain Text in chrome.local/browser.local storage ONLY. It is not transmitted anywhere else.** See the FAQ for more details.
+**Your username and password are stored in Plain Text in chrome.local/browser.local storage ONLY. It is not transmitted anywhere else. I am not responsible for any unwanted changes to your MAL.** See the FAQ for more details.
 
 # FAQ
 ### Where are my username and password stored?
@@ -22,6 +22,3 @@ Unless someone else physically inspects the storage or modify the extension, you
 
 ### Well that does not sound very convincing. Anything else that I can do?
 Yup. You can verify your credentials when you are using the integration and remove your credentials when you are not. Oh and also since this is a open source project, feel free to verify the code as well 😄 .
-
-## LIABILITY
-I am not responsible for any accidental changes to your MAL.
