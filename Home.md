@@ -1,4 +1,3 @@
 Welcome to the 9anime-Companion wiki!
 
-### Want to contribute to this Wiki?
-[Fork it and send a pull request.](https://github.com/lap00zza/9anime-Companion-Wiki)
+9anime Companion is a Free and Open Source (FOSS) webextension for 9anime. This wiki contains helpful information about its various features.
