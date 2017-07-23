@@ -1,0 +1,15 @@
+script:
+- |
+  git config user.name "Jewel Mahanta"
+  git config user.email "jewelmahanta@gmail.com"
+  git remote remove origin
+  git remote add origin https://$GITHUB_API_KEY@github.com/lap00zza/9anime-Companion-Wiki.git > /dev/null 2>&1
+  git remote add upstream https://$GITHUB_API_KEY@github.com/lap00zza/9anime-Companion.wiki.git > /dev/null 2>&1
+  git fetch origin
+  git fetch upstream
+  git merge upstream/master --no-edit
+  git push origin HEAD:master > /dev/null 2>&1
+  git push upstream HEAD:master > /dev/null 2>&1
+env:
+  matrix:
+    secure: e6lJh+aDgD7ktIA1o9hN79fXntDQGuM1nheH0jcdTjzN3z6CHLmvcitnQdwefPZEyB2BacC6NSPgCV0M2Cbm7N2T2hALd9QUvmeImOGrBh6DGi/RsQjUGZlnD8immWu4/m3ni0YB4Z/dGTMIjlhHJuc19N8os4F2llBQu5jcuT7IF0H7YsHTiKjw48D3fyD93Yg6V9lvnDFU1lZLWra2EtGdYpZ/5S7wd7KTaNExkchS93k0ZLObAdhtZoUXBU3VA50qsRlOHxcuzKuuI7KJRzm6j5UpKDvFFnEcYnYh9xTo+cTywJgwcSJ8SGcFk4wpBEpU9MfKskq7lAyoG3pYfaXmL39G+x84NyCoy/qMcXwrLsnWdQqpiLOzJ3TFiUNtumWUQTnxmF5vVVsonts5GoNWi9lUrU2IW5IbL0zIdtNsIOfwQsz5JJF4R0ugS6WcQPoxvvrHe+kZ0FVufQPXvaOYr5KwWTBh5SMqLtAqwBIxWCaPEnSSZRJ9zxMJGGpw3r9VPnj6iUe1xw/UrTTJA9p/cIUACoXAG3Yhg+HiaYeqBl8J8wGtqYhaV5FkE+c50fIonhmp0BRWq8faQKt1DJrGZBpMYg5WMoQopkvivKYGLG1lJx8twdZ6PYNISm43/gMgI0+fBryL9yMGD9pAoYoFtbwpdq+qVTdPpma8INs=
