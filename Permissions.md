@@ -17,7 +17,7 @@ When you enable remove ads setting, you will probably see a popup like the one a
 This part `"origins": ["<all_urls>"]` is responsible for showing that line. So why exactly does 9anime Companion need this? For that you need to understand how the remove ads work. It works in 3 parts.
 
 #### Background Script (Most Important)
-It matches url's of requests from a list of urls that are known ad provider/malicious and cancels them (so the request never happens). This is very much like how normal adblockers work. Since 9anime Companion needs to analyze all the request url's to cancel out the bad ones, the `"origins": ["<all_urls>"]` is required.
+It matches url's of requests from a list of urls that are known ad provider/malicious and cancels them (so the request never happens). This is very much like how normal adblockers work. Since 9anime Companion needs to **analyze all the request url's** to cancel out the bad ones, the `"origins": ["<all_urls>"]` is required.
 
 #### Global Content Script
 Overwrites a few functions that generates popups making them useless
