@@ -1,4 +1,4 @@
-9anime Companion needs extension permissions to function properly. Lets take a look at why they are necessary.
+9anime Companion needs permissions to function properly. Lets take a look at why they are necessary.
 
 ## Remove Ads
 ![Remove Ads Popup](https://image.ibb.co/noUvUv/rem_Ads_perms.png)
